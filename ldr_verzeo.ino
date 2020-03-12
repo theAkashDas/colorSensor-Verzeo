@@ -20,7 +20,8 @@ void loop() {
   analogWrite(12,LOW);
   analogWrite(8,LOW);
   
-  //conditions for determination of color
+  //conditions for determination of color. The limiting values will change according to the intensity of the surrounding lights.
+  //check it and change the values accordingly.
   if(valueAnalog>17 && valueAnalog<25)
   {
     Serial.println("RED");//prints in the serial monitor
