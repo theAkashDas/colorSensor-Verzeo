@@ -5,7 +5,7 @@ int valueAnalog = 0;     // result of reading the analog pin new
 void setup() {
   Serial.begin(9600);
   pinMode(13,OUTPUT);// sets serial port for communication
-  pinMode(12,OUTPUT);
+  pinMode(12,OUTPUT);// output
   pinMode(8,OUTPUT);
   pinMode(9,OUTPUT);
 
