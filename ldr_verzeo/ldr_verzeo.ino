@@ -44,7 +44,10 @@ void loop() {
 
 void setColor(int red, int green, int blue)
 {
+
   analogWrite(13, red);// color set new
-  analogWrite(12,green);
-  analogWrite(8,blue);
+  analogWrite(12,green);// set color to green
+  analogWrite(8,blue);// set to blue
+  
+  
 }
